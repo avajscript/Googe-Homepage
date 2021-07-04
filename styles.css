@@ -105,6 +105,11 @@ input:focus {
   padding: 10px;
   border-radius: 0.2em;
 }
+.input-boxes span:hover {
+  cursor: pointer;
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 1px rgb(0, 0, 0, 0.1);
+}
 
 .lang a {
   color: #1a0dab;
@@ -120,6 +125,10 @@ input:focus {
   background-color: #f2f2f2;
   width: 100%;
   color: rgba(0, 0, 0, 0.54);
+}
+
+.footer-bottom li:hover {
+  text-decoration: underline;
 }
 
 .footer-top {
